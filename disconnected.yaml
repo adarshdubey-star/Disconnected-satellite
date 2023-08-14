@@ -1,0 +1,8 @@
+---
+- name: Making you root_user
+  hosts: my_host
+  become: yes
+  become_user: root
+  tasks:
+    - name: Task 1
+      command: echo "Hello from Ansible!"
