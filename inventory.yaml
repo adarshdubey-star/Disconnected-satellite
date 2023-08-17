@@ -1,4 +1,4 @@
 all:
   hosts:
     my_host:
-      ansible_host: dhcp-x-abc.com
+      ansible_host: dhcp-2-134.vms.sat.rdu2.redhat.com
